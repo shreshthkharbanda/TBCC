@@ -1830,10 +1830,11 @@ textarea:focus {
 
 .navbar.scrolled {
 	background: #FFF2FF;
+	display: none;
+	top: -50;
 	z-index: 999;
-	padding: 15px;
-	-webkit-box-shadow: 0 0 10px rgba(166, 209, 237, 0.3);
-	box-shadow: 0 0 10px rgba(166, 209, 237, 0.3);
+	/* -webkit-box-shadow: 0 0 10px rgba(166, 209, 237, 0.3); */
+	/* box-shadow: 0 0 10px rgba(166, 209, 237, 0.3); */
 }
 
 .navbar.scrolled .navbar-brand img {
