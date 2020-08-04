@@ -1826,6 +1826,7 @@ textarea:focus {
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
 	transition: all .5s;
+	background: #FFF2FF;
 }
 
 .navbar.scrolled {
@@ -1989,7 +1990,8 @@ textarea:focus {
 
 .navbar-nav .custom-megamenu {
 	top: 100%;
-	width: 100%;
+	width: 30%;
+	left: 10%;
 	background-color: transparent;
 	border-top: none;
 	-webkit-box-shadow: none;
@@ -3368,7 +3370,7 @@ h1 {
 }
 .clients .client:hover {
 	opacity: 1;
-	filter: grayscale(-100%);
+	filter: grayscale(0%);
 	transform: scale(1.2);
 	/* Firefox 28+, Opera 12.10, IE Not supported. */
 }

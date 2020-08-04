@@ -6,12 +6,12 @@ jQuery(function ($) {
     // var buyNow = '<a class="custom-btn btn-big grad-style-ef btn-fixed" href="https://themeforest.net/item/digital-agency-html-template/20268873" target="_blank" rel="noopener"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now $18</a>'
     // $('body').append($(buyNow));
 
-    $('.btn-fixed').css({
-        'position': 'fixed',
-        'right': '25px',
-        'bottom': '25px',
-        'z-index': '9999'
-    });
+    // $('.btn-fixed').css({
+    //     'position': 'fixed',
+    //     'right': '25px',
+    //     'bottom': '25px',
+    //     'z-index': '9999'
+    // });
 
     //Global variables
     var _document = $(document),
